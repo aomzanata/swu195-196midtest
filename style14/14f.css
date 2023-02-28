@@ -1,0 +1,67 @@
+
+.picture-discord-section {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    width: 62px;
+    padding-left: 8px;
+    padding-top: 20px;
+    background-color: rgb(39, 39, 39);
+}
+
+.picture-discord-container {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 8px;
+
+}
+
+.picture-discord {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.info-discord-section {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 62px;
+    width: 140px;
+    background-color: rgb(59, 60, 65);
+    padding-left: 10px;
+}
+
+.header-container {
+    padding-top: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.whole-room {
+    color: rgb(231, 231, 231);
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.create-room-icon {
+    color: rgb(164, 164, 164);
+    font-family: arial;
+    font-size: 23px;
+}
+
+.chat-room-name-container {
+    margin-bottom: 12px;
+}
+
+.chat-room-name {
+    color: rgb(164, 164, 164);
+    font-family: arial;
+    font-size: 12px;
+}

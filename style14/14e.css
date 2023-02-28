@@ -1,0 +1,69 @@
+.header {
+    position: fixed;
+    top: 20px;
+    left: 70px;
+    right: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.picture-profile-section {
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+}
+
+.picture-profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.name {
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.interaction {
+    display: flex;
+    align-items: center;
+}
+
+.add-friend-button-section {
+    margin-right: 8px;
+}
+
+.add-friend-button {
+    background-color: rgb(22, 98, 219);
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+}
+
+.Message-button {
+    background-color: rgb(236, 236, 236);
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+}
